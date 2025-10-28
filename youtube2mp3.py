@@ -64,6 +64,11 @@ class Converter(QMainWindow):
                 self.convert_video(info['id'], info)
 
 if __name__ == "__main__":
+    try:
+        yt_dlp.update()
+    except:
+        pass
+
     window = QApplication(sys.argv)
     app = Converter()
     app.setWindowIcon(QIcon("logo.ico"))
