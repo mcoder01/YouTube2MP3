@@ -133,7 +133,7 @@
         </widget>
        </item>
        <item>
-        <widget class="QPushButton" name="pushButton">
+        <widget class="QPushButton" name="convertBtn">
          <property name="minimumSize">
           <size>
            <width>130</width>
@@ -289,7 +289,7 @@
    </hints>
   </connection>
   <connection>
-   <sender>pushButton</sender>
+   <sender>convertBtn</sender>
    <signal>clicked()</signal>
    <receiver>MainWindow</receiver>
    <slot>convert()</slot>
