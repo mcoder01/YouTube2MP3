@@ -1,6 +1,6 @@
 # YouTube2MP3
 
-This tool is able of downloading youtube videos and converting them into `MP3` audio file format, by simply providing the YouTube video URL. If a link to a YouTube playlist is given, the full playlist is converted. \
+This tool is able of downloading youtube videos and converting them into `MP3` audio file format, by simply providing the YouTube video URL. If a link to a YouTube playlist is given, the whole playlist is converted. \
 The simple graphical user interface allows the user to paste the video link, to choose the destination folder and to visualize the progress of the conversion for each video in the queue.
 
 The tool is based on the `yt-dlp` library and automatically checks for some library updates at the start, to handle any changes in how YouTube works. 
